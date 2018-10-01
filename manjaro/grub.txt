@@ -1,0 +1,7 @@
+set root=(hdM,N)
+linux 内核镜像文件的路径 misolabel=ISO文件的名称 img_dev=ISO文件所在的分区编号 img_loop=ISO文件的路径
+initrd initrd文件的路径
+boot
+
+例子
+内核镜像文件路径
