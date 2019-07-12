@@ -79,7 +79,7 @@ public class guessNum {
 
     `--rm`选项表示当用户退出容器后，容器自动销毁
 
-    `-p 80:80`选项表示端口映射，第一个80表示容器的端口，第二个80表示宿主机的端口，该选项表示把容器的80端口映射到宿主机的80端口
+    `-p 80:8080`: 指定端口映射，格式为：主机(宿主)端口:容器端口
 
     `-v ~/workspace/yinglongyhy.github.io:/var/www/html`选项表示把宿主机的`~/workspace/yinglongyhy.github.io`目录挂载到容器的`/var/www/html`目录
 
